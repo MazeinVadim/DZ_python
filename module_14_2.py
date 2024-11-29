@@ -1,7 +1,7 @@
 import sqlite3
 
 # Создаем и подключаемся к базе данных
-conn = sqlite3.connect('not_telegram.db')
+conn = sqlite3.connect('not_telegram2.db')
 cursor = conn.cursor()
 
 # Удаляем таблицу Users, если она существует
