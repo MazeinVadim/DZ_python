@@ -16,12 +16,12 @@ def admin_page():
 # Маршрут к странице пользователя с параметром user_id
 @app.get("/user/{user_id}")
 def user_page(user_id: int):
-    return f"Вы вошли как пользователь № 'Kirill'"
+    return f"Вы вошли как пользователь № {user_id}"
 
 # Маршрут к странице пользователя с параметрами username и age в адресной строке
 @app.get("/user")
 def user_info(username: str, age: int):
-    return f"Информация о пользователе. Имя: 'Vadim', Возраст: '37'"
+    return f"Информация о пользователе. Имя: {username}, Возраст: {age}"
 
 
 if __name__ == "__main__":
