@@ -1,0 +1,6 @@
+This directory contains Alembic migration files.
+To run migrations:
+1. Run 'alembic upgrade head' to apply all migrations.
+2. Run 'alembic downgrade base' to undo all migrations.
+3. Run 'alembic revision --autogenerate -m "<Your message>"' to generate a new migration.
+See Alembic documentation for more information.
